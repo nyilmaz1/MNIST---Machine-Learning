@@ -1,6 +1,6 @@
 # MNIST---Machine-Learning
 One of the projects I completed through a Udemy course called Machine Learning With TensorFlow is the MNIST or so called "Hello World" of ML. The dataset provides 28x28 images of handwritten digits (1 per image) and the goal is to write an algorithm that detects which digit is written. This is a classification problem with 10 classes. We will build a network with 2 hidden layers between inputs and outputs and try to make model predict what the given number is.   
-I achieved 98% test accuracy by playing with the hyperparameters. I found the best combination is when the hidden layer size = 400; 2 layers in total: learning rate = 0.001. I could make the hidden layer size larger and learning rate more to increase the accuracy, but it takes too long to model to train. Following are my notes:  
+I achieved 98% test accuracy by playing with the hyperparameters. I found the best combination is when the hidden layer size = 400; 2 layers in total: learning rate = 0.001 with ReLu activation function in both layers. I could make the hidden layer size larger and learning rate more to increase the accuracy, but it takes too long to model to train. Following are my notes:  
 ##### hidden layer size = 50: test accuracy: 96.84  
 ##### hidden layer size = 200: test accuracy: 97.69 (longer time)   
 ##### hidden layer size = 400: test accuracy: 97.92 (takes much longer) 
