@@ -1,0 +1,2 @@
+# MNIST---Machine-Learning
+One of the projects I completed through a Udemy course called Machine Learning With TensorFlow is the MNIST or so called "Hello World" of ML. The dataset provides 28x28 images of handwritten digits (1 per image) and the goal is to write an algorithm that detects which digit is written. This is a classification problem with 10 classes. We will build a network with 2 hidden layers between inputs and outputs and try to make model predict what the given number is. 
